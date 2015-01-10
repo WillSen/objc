@@ -13,4 +13,10 @@
     float radius;
 }
 
+-(void)setRadius:(float)radius;
+-(float)radius;
+
+-(void)setCenter:(NSArray *)center;
+-(NSArray *)center;
+
 @end
