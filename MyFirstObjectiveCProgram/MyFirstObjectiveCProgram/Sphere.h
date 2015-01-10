@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Sphere : NSObject {
-    NSArray *center
+    NSArray *_center;
+    float radius;
 }
 
 @end
